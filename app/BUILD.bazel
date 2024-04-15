@@ -12,7 +12,7 @@ npm(
 
 gcs_deploy(
     name = "deploy",
-    bucket_name = "$BUCKET_NAME",
+    bucket_name = "my-reallly-cool-bucket-234jkl3",
     deps = [":build"],
 )
 
